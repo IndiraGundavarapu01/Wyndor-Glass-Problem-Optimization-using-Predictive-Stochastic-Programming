@@ -9,5 +9,14 @@ The Wyndor glass problem considered for this project falls under the wing of Pre
 The dataset has 200 data points. The total budget of advertising is $200,000. Let x1 and x2 denote the TV and Radio expenditures. The total expenditures should be less than $200 (in thousand). One more policy is that the TV expenditures should be as least half of the Radio expenditures. From this, we have lower and upper limits for 𝑥𝑥1 and 𝑥𝑥2, observed from training set. Assuming the adverting costs are c1 = $100 and c2 = $500, the first stage model can be written as following.
 
 $$
-\max -0.1x_1 - 0.5x_2 + E[Profit(\omega)] \
+\
+\begin{align*}
+& \text{maximize} \quad -0.1x_1 - 0.5x_2 + E[Profit(\omega)] \\
+& \text{subject to} \\
+& \quad x_1 + x_2 \leq 200 \\
+& \quad x_1 - 0.5x_2 \geq 0 \\
+& \quad L_1 \leq x_1 \leq U_1 \\
+& \quad L_2 \leq x_2 \leq U_2 \\
+\end{align*}
+\
 $$
