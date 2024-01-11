@@ -24,16 +24,17 @@ $$
 ## Second Stage Problem and Constraints - 
 The sales $\widetilde{\omega}$ are random variables influenced by the advertising strategies $x1$ and $x2$. We choose linear regression to measure it in this project. Therefore, the total sales are denoted as $\widetilde{\omega} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \widetilde{\epsilon}$ and this equality is added as a constraint in the second-stage production problem. In this equation, we can say the profit is determined by the choice of $x$ and the uncertainty captured by the random variable $\widetilde{\epsilon}$. 
 For each specific $\omega$, we have following second stage model. $yA$ and $yB$ mean the batch of door A and door B produced. The first three constraints are the time limits. In this  example, the “Total Hours” are multiplied by two to allow more options for product mix decisions. One more important change is that the product needs to satisfy an additional constraint about the potential future sales. The production should be less or equal to the sales. 
+
 $$
-\text{Profit}(\omega_i) = \max 3y_A + 5y_B \
-
-subject to the following constraints:
-
-\y_A \leq 8 \
-\2y_B \leq 24 \
-\3y_A + 5y_B \leq 36 \
-\y_A + y_B \leq \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \epsilon_{ti}, \quad \forall i \
-
-where \ y_A, y_B \geq 0 \
+\begin{align*}
+& \text{Profit Maximization Problem} \\
+& \text{maximize} \quad 3y_A + 5y_B \\
+& \text{subject to} \\
+& \quad y_A \leq 8 \\
+& \quad 2y_B \leq 24 \\
+& \quad 3y_A + 5y_B \leq 36 \\
+& \quad y_A + y_B \leq \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \epsilon_{ti}, \quad \forall i \\
+& \quad y_A, y_B \geq 0 \\
+\end{align*}
 $$
 
