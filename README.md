@@ -6,7 +6,7 @@ plants are named 1, 2 and 3. The company now wants to optimize the profit by usi
 The Wyndor glass problem considered for this project falls under the wing of Predictive Stochastic Programming (PSP). It is a combination of both Predictive Analytics and Stochastic Programming. Unlike an SP which has uncertain scenarios associated with it, a PSP works with covariates (the predictor and response variables.) The solving of a PSP model incorporates methodologies from both learning and Optimization. This integration created a combined methodology known as Learning Enabled Optimization (LEO).
 
 ##Constraints -
-The dataset has 200 data points. The total budget of advertising is $200,000. Let x1 and x2 denote the TV and Radio expenditures. The total expenditures should be less than $200 (in thousand). One more policy is that the TV expenditures should be as least half of the Radio expenditures. From this, we have lower and upper limits for \x_1\ and \x_2\, observed from training set. Assuming the adverting costs are c1 = $100 and c2 = $500, the first stage model can be written as following.
+The dataset has 200 data points. The total budget of advertising is $200,000. Let x1 and x2 denote the TV and Radio expenditures. The total expenditures should be less than $200 (in thousand). One more policy is that the TV expenditures should be as least half of the Radio expenditures. From this, we have lower and upper limits for \(x_1\) and \(x_2\), observed from training set. Assuming the adverting costs are c1 = $100 and c2 = $500, the first stage model can be written as following.
 
 $$
 \
