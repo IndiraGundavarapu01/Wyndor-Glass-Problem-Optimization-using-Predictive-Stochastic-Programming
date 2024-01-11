@@ -11,7 +11,7 @@ The dataset has 200 data points. The total budget of advertising is $200,000. Le
 $$
 \
 \begin{align*}
-& \text{maximize} \quad -0.1x_1 - 0.5x_2 + E[Profit(\omega)] \\
+& \text{maximize} \quad -0.1x_1 - 0.5x_2 + E[Profit(\widetilde{\omega})] \\
 & \text{subject to} \\
 & \quad x_1 + x_2 \leq 200 \\
 & \quad x_1 - 0.5x_2 \geq 0 \\
