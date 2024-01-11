@@ -27,7 +27,6 @@ For each specific $\omega$, we have following second stage model. $yA$ and $yB$ 
 
 $$
 \begin{align*}
-& \text{Profit Maximization Problem} \\
 & \text{maximize} \quad 3y_A + 5y_B \\
 & \text{subject to} \\
 & \quad y_A \leq 8 \\
@@ -38,3 +37,10 @@ $$
 \end{align*}
 $$
 
+## Assumptions - 
+Since the interface between two stages is $\omega$, it’s important to reconcile the assumptions of linear regression underlying statistical estimation and optimization.
+1. Linearity: Linear model is sufficient.
+2. Independence: The error terms in regression model are independent random
+variables. Each data points represents independent clients.
+3. Normality: The error is approximately normally distributed.
+4. Homoscedasticity: The variance of errors doesn’t change with the choice of $x$
