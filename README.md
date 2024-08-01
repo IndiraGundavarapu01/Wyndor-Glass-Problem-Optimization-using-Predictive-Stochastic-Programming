@@ -48,5 +48,3 @@
 - Experiment with different data splits to verify the robustness of the regression model.
 - Explore additional validation techniques beyond MVSAE.
 - Consider other advertising channels and their impact on sales to further refine the model.
-
-This structured approach ensures clarity in addressing Wyndor Glass Co.'s business problem through advanced data analytics and optimization techniques.
